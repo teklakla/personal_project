@@ -21,52 +21,13 @@ header {
   align-items: center;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 
-.logo_img {
-  height: 80px;
-  width: auto;
-}
-
-.logo-text {
-  font-size: 1.3rem;
-  color: white;
-}
-
-@media (max-width: 600px) {
-  .logo-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .logo-text {
-    font-size: 1.1rem;
-  }
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
-}
-
-nav ul li a {
-  color: #58a6ff;
-  text-decoration: none;
-}
 
 main {
   padding: 2rem;
   text-align: center;
 }
 
-.burger {
-  display: none;
-}
 
 @media (max-width: 768px) {
   nav ul {
